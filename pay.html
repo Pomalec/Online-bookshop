@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet"  href="css folder/style.css" />
+    
+  </head>
+  <body >
+    <header>
+        
+      <nav class="nav">
+        <img class="menu" src="img folder/menu.png" alt="menu"> <!-- // using the source attribute (src) the img element connects to the img file  -->
+        <img class="logo" src="img folder/logo.png"  alt="Logo of the website">
+        <ul>
+            
+          <li><a title="Index or Home page" href="index.html">Home</a></li><!-- //using the href attribute from the a element which connects the html to another html via a hyperlink  -->
+          <li><a title="About us page" href="about.html">About us</a></li>
+          <li><a title="Contact Us Page" href="contactus.html">Contact us</a></li>
+               
+            
+        </ul>
+        <img class="mode night" src="img folder/nightmode.jpg" width="10%" height="10%" id="mode" alt="Image that switch display mode of website to night or day"><!-- // using the source attribute (src) the img element connects to the img file  -->
+    <div class="cartContainer">
+      <p id="numberItems"></p>
+      <img src="img folder/shoppingcar.png"  width="2%" height="20%" id="cart" alt="cart" class="cart" alt="Icon of the cart">
+    </div>
+    </nav>
+
+      
+
+    <nav class="mobileNav">
+      <ul>
+        
+        <li><a title="Index or Home page" href="index.html">Home</a></li>
+        <li><a title="About us page" href="about.html">About us</a></li>
+        <li><a title="Contact Us Page" href="contactus.html">Contact us</a></li>
+         
+      
+      </ul>
+    </nav>
+    </header>
+    <main>
+      
+       
+          <div class="cardInfo">
+            <div class="divForm">
+              <form id="cardForm">
+                
+                <label for="cardNumber" >
+                  Card number
+                </label>
+                
+                <br>
+                <input id="cardNumber" maxlength="16"  type="number" required>
+               
+              
+                <br>
+                <label for="cardMonth">
+                  Exp month
+                </label>
+                <select id="cardMonth">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+  
+                </select>
+               <!--  <input id="cardMonth" type="numberItems"> -->
+                <br>
+              
+                <label for="cardYear">
+                  Exp Year
+                </label>
+                <!-- <input id="cardYear" type="numberItems"> -->
+                <select id="cardYear">
+                  <option value="2024">2024</option>
+                  <option value="2025">2025</option>
+                  <option value="2026">2026</option>
+                  <option value="2027">2027</option>
+                  <option value="2028">2028</option>
+                  <option value="2029">2029</option>
+                  <option value="2030">2030</option>
+                  
+  
+                </select>
+                <br>
+                
+                <label for="cardCode">
+                  CVV
+                </label>
+                <input id="cardCode" type="number" required  >
+                <br>
+                
+                  <button id="payBtn"  >pay</button>
+              </form>
+            </div>
+            <div id="formRes"></div>
+          </div>
+        </div>
+      
+      
+    </main>
+    <script src="js folder/cart.js"></script> 
+  </body>
+</html>

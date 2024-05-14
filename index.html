@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Shop</title> 
+   
+    
+     <link rel="stylesheet"  href="css folder/style.css" /> <!-- // using the link element the html file is connected to an external css file via the href attribute -->
+  </head>
+  <body>
+    
+
+    
+      <header>
+        
+        <nav class="nav">
+          <img class="menu" src="img folder/menu.png" alt="menu"> <!-- // using the source attribute (src) the img element connects to the img file  -->
+          <img class="logo" src="img folder/logo.png"  alt="Logo of the website">
+          <ul>
+              
+            <li><a title="Index or Home page" href="index.html">Home</a></li><!-- //using the href attribute from the a element which connects the html to another html via a hyperlink  -->
+            <li><a title="About us page" href="about.html">About us</a></li>
+            <li><a title="Contact Us Page" href="contactus.html">Contact us</a></li>
+                 
+              
+          </ul>
+          <img class="mode night" src="img folder/nightmode.jpg" width="10%" height="10%" id="mode" alt="Image that switch display mode of website to night or day"><!-- // using the source attribute (src) the img element connects to the img file  -->
+      <div class="cartContainer">
+        <p id="numberItems"></p>
+        <img src="img folder/shoppingcar.png"  width="2%" height="20%" id="cart" alt="cart" class="cart" alt="Icon of the cart">
+      </div>
+      </nav>
+ 
+        
+  
+      <nav class="mobileNav">
+        <ul>
+          
+          <li><a title="Index or Home page" href="index.html">Home</a></li>
+          <li><a title="About us page" href="about.html">About us</a></li>
+          <li><a title="Contact Us Page" href="contactus.html">Contact us</a></li>
+           
+        
+        </ul>
+      </nav>
+      </header>
+      <section id="section1">
+      <main>
+        <button class="leftArrow"><img src="img folder/arrow.png" height="30%" alt="button that moves panel to the left"></button>
+        <button class="rightArrow"><img src="img folder/arrow.png" height="30%" alt="button that moves panel to the right"></button>
+        <div class="container">
+     
+            <div class="panel" style="
+            background-image:url('img folder/ouranmanga.jpg')" ><!-- /using the style attribute the background-image element connects to the img file using its url  -->
+          <span class="discount">69% off</span>
+<div class="productInfo">
+  
+  
+  <span class="price">£100</span><span class="discountedPrice">£31</span>
+  <button class="btnAddCart">Add to Cart</button>
+</div>
+            
+          </div>
+          <div
+            class="panel"
+            style="
+              background-image: url('img folder/berserkmanga.jpg');
+            ">
+            <span class="discount">69% off</span>
+            <div class="productInfo"> 
+            
+              <span class="price">£100</span><span class="discountedPrice">£31</span>
+              <button class="btnAddCart">Add to Cart</button>
+            </div>
+            
+          </div>
+          <div
+            class="panel"
+            style="
+              background-image: url('img folder/bocchimanga.jpg');
+            "
+          ><span class="discount">69% off</span>
+          <div class="productInfo">
+           
+            
+     
+            <span class="price">£100</span><span class="discountedPrice">£31</span>
+            <button class="btnAddCart">Add to Cart</button>
+          </div>
+           
+          </div>
+          <div class="panel" style="background-image: url('img folder/konmanga.jpg'); ">
+            <span class="discount">69% off</span>
+            <div class="productInfo">
+            
+              
+       
+          <span class="price">100</span><span class="discountedPrice">31</span>
+          <button class="btnAddCart">Add to Cart</button>
+            </div>
+            
+           
+          </div>
+          <div
+            class="panel" style="
+            background-image:url('img folder/nagatoromanga.jpg')
+          " >
+         <span class="discount">69% off</span>
+         <div class="productInfo">
+          
+        
+          <span class="price">£100</span><span class="discountedPrice">£31</span>
+          
+          <button class="btnAddCart">Add to Cart</button>
+          </div>
+         </div>
+          <div class="panel" style=" background-image:url('img folder/pokemonadventuremanga.jpg')
+          " >
+          <span class="discount">69% off</span>
+          
+          <div class="productInfo">
+           
+     
+            <span class="price">£100</span><span class="discountedPrice">£31</span>
+            <button class="btnAddCart">Add to Cart</button>
+          </div>
+            
+          </div>
+
+          <div
+            class="panel"
+            style="
+              background-image: url('img folder/bocchimanga.jpg');
+            "
+          ><span class="discount">69% off</span>
+          <div class="productInfo">
+            
+            
+          
+            <span class="price">£100</span><span class="discountedPrice">£31</span>
+            <button class="btnAddCart">Add to Cart</button>
+          </div>
+        </div> 
+        </div>
+    
+      </section>
+      
+      <section id="section2">  
+       
+        <h1 id="section2Title">Browse our other bestsellers</h1>
+          <div class="shopItems shopItemSec" style="display: block;" id="page1">
+            
+  <ul id="shopItems" class="shopItems list">
+    <li class="shopItems item">
+<img src="img folder/pluto-urasawa-x-tezuka-vol-1-.jpg" alt="Pluto Manga Cover Vol1 Cover"class="itemThumbnail"> 
+<button class="btnAddCart">Add to Cart</button>
+<span class="itemPrice">£20</span>
+<h2 class="itemTitle night" >Pluto</h2>
+<h3 class="itemDesc night" >Urasawa, Naoki</h3>
+    </li>
+    <li class="shopItems item">
+      <img src="img folder/hxh_.jpg" alt="Hunter X Hunter Manga Vol1 Cover" class="itemThumbnail">
+      <button class="btnAddCart">Add to Cart</button>
+      <span class="itemPrice">£20</span>
+      <h2 class="itemTitle night" >Hunter X Hunter</h2>
+      <h3 class="itemDesc night" >Yoshiro, Togashi</h3>
+    </li>
+    <li class="shopItems item">
+      <img src="img folder/punpun_.jpg" alt="Oyasumi Punpun Manga Vol1 Cover"class="itemThumbnail">
+      <button class="btnAddCart">Add to Cart</button>
+      <span class="itemPrice">£20</span>
+      <h2 class="itemTitle night" >Oyasumi Punpun</h2>
+      <h3 class="itemDesc night" >Asano, Inio</h3>
+    </li>
+ 
+    
+   
+  </ul>
+  
+ 
+          </div>
+          <div class="shopItems shopItemSec" style="display: none;" id="page2">
+            
+            <ul id="shopItems" class="shopItems list">
+              <li class="shopItems item">
+          <img src="img folder/Steins;Gate_manga.png" alt="Steins Gate manga Vol1 Cover"class="itemThumbnail"> 
+          <button class="btnAddCart">Add to Cart</button>
+          <span class="itemPrice">£20</span>
+          <h2 class="itemTitle night" >Steins Gate</h2>
+          <h3 class="itemDesc night" >Yomi, Sarachi</h3>
+              </li>
+              <li class="shopItems item">
+                <img src="img folder/sakura_.jpg" alt="Sakura Carcaptor manga Vol1 Cover" class="itemThumbnail">
+                <button class="btnAddCart">Add to Cart</button>
+                <span class="itemPrice">£20</span>
+                <h2 class="itemTitle night" >Sakura Carcaptor</h2>
+                <h3 class="itemDesc night" >Clamp</h3>
+              </li>
+              <li class="shopItems item">
+                <img src="img folder/persona3manga_.jpg" alt="Persona 3 manga Vol1 Cover"class="itemThumbnail">
+                <button class="btnAddCart">Add to Cart</button>
+                <span class="itemPrice">£20</span>
+                <h2 class="itemTitle night" >Persona 3</h2>
+                <h3 class="itemDesc night" >Shuji, Sogabe</h3>
+              </li>
+          
+              
+          
+              
+            </ul>
+            
+                    </div>
+                    <div class="btnContainer">
+                      <a href="#section2" class="btnPage" data-page="page1">Page 1</a>
+                      <a  href="#section2" class="btnPage" data-page="page2">Page 2</a>
+                      
+                    </div>
+      </section>
+      
+  </main>
+      
+     <footer>
+        
+        <p>© 2024 by Book Shop | </p>
+  
+    
+    </footer> 
+    
+    <script src="js folder/script.js"></script> <!-- //script element connects to an external script using the src attribute -->
+  </body>
+  
+</html>
